@@ -1,0 +1,14 @@
+{
+  "name": "family-score",
+  "version": "0.0.1",
+  "description": "Simple bot for experimental kids incentive program",
+  "dependencies": {
+        "express" : "*",
+	"request" : "*",
+	"console-stamp" : "*",
+	"nedb" : "*",
+	"body-parser" : "*"
+  }
+}
+
+
