@@ -1,0 +1,10 @@
+version: '2.0'
+services:
+  tonoli-rewards:
+    container_name: tonoli_rewards
+    image: docker.tonoli.io:5000/tonoli-rewards:1.0.0
+    ports: 
+      - 3124:3124
+    restart: unless-stopped
+    volumes:
+      - /opt/tonoli-rewards/:/data/

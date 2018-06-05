@@ -22,7 +22,7 @@ var token = 'snorlax'
 require('console-stamp')(console, '[mmm dd HH:MM:ss.l]');
 
 // Create a store
-var rewards = new Datastore({filename: '/opt/tonoli-reward/rewards.db', autoload: true});
+var rewards = new Datastore({filename: '/data/rewards.db', autoload: true});
 
 var app = express();
 var bodyParser = require('body-parser');
